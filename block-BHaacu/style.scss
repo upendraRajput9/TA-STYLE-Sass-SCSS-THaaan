@@ -1,0 +1,99 @@
+@import"reset";
+@import"var";
+@import"general";
+@import"home";
+@import"contact";
+@import"about";
+@import"service";
+@import"pricing";
+
+
+.bar{
+    display: none;
+}
+#toggle{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .sm-gap{
+        margin-bottom: 2rem;
+    }
+    html{
+        font-size: 10px;
+    }
+    .sm-padding1{
+        margin: 2rem;
+    }
+    .sm-padding-bottom{
+        padding-bottom: 3rem;
+    }
+    .sm-padding3{
+        width: 90%;
+    }
+    iframe{
+        width: 360px;
+        padding: 0 2rem;
+        padding-bottom: 2rem;
+    }
+    form{
+        padding: 0 2rem;
+    }
+    .container{
+        max-width: 755px;
+    }
+    .inner-header{
+        position: fixed;
+        right: 0;
+        left: 0;
+    }
+    .sm-column{
+        flex-direction: column;
+    }
+    .nav{
+        display: none;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        padding-top: 10rem;
+     
+    }
+    .logo{
+        z-index: 99;
+        
+    }
+    .bar{
+        display: block;
+        z-index: 99;
+       &:active{
+           color: white;       }
+    }
+    #toggle:checked~.nav{
+        display: block;
+
+    }
+
+    .inner-header{
+        div{
+            ul{
+                width: 4rem;
+            }
+           
+        }
+        ul{
+            li{
+                a{
+                    
+                    color: white;
+                    &:active{
+                        color: orangered;
+                    }
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.clearfix::before,
+.clearfix::after{
+    content:"";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+
+body{
+    line-height: 1.5;
+    font-family: $font;
+    a{
+        text-decoration: none;
+    }
+}
+.padding-top{
+    padding-top: 2rem;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-top{
+    align-items: flex-start;
+}
+.flex30{
+    flex: 0 1 30%;
+}
+.flex32{
+    flex:0 1 32%;
+}
+.flex40{
+    flex: 0 1 40%;
+}
+.flex55{
+    flex: 0 1 55%;
+}
+.flex45{
+    flex: 0 1 45%;
+}
+.flex47{
+    flex: 0 1 47%;
+}
+.flex50{
+    flex: 0 1 43%;
+}
+.none{
+display: none;
+}
+img{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+.width100{
+    width: 100%;
+}
+.btn{
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
