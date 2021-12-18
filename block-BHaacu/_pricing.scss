@@ -1,0 +1,59 @@
+.pricing{
+    background-color: $light;
+    padding: 4rem 0;
+    p{
+        padding: 1rem 0;
+    }
+    
+    color: $text-color;
+    article{
+        border: 1px solid $text-color   ;
+        width: 100%;
+        flex: 0 1 32%;
+        background-color: white;
+        padding: 2rem 0;
+        h2{
+        color: black;
+        }
+      
+        ul{
+            padding: 2rem 0;
+            color: black;
+        }
+        li{
+            padding: 0.5rem 0;
+            color: $text-color;
+        }
+        button{
+        background-color: white;
+        color: $primary;
+        border: 1px solid $primary;
+        }
+        .middle-btn{
+            background-color: $primary;
+        color: white;
+       
+        }
+    }
+}
+
+.frequently{
+    padding: 3rem 0;
+    p{
+        color: $text-color;
+        padding: 1rem 0;
+    }
+    div{
+        padding: 2rem 0;
+    }
+    article{
+        border: 1px solid $light;
+        flex: 0 1 49%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        
+        h3{
+            font-weight: 700;
+        }
+    }
+}
