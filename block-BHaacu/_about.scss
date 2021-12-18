@@ -1,0 +1,58 @@
+.about{
+    padding: 5rem 0;
+    h3{
+        color: $primary;
+    }
+    p{
+        color: $text-color;
+        line-height: 2;
+    }
+    .figure{
+padding-right: 5rem;
+    }
+}
+.vision{
+    
+   
+    h3{
+        font-size: 1.2rem;
+    }
+    p{
+        color: $text-color;
+    }
+    i{
+        font-size: 2.5rem;
+        color: rgb(49, 49, 49);
+        padding: 0 2rem;
+    }
+    div{
+        padding-bottom: 2rem;
+    }
+}
+.team{
+    background-color: $light;
+    padding: 3rem 0;
+    div{
+        padding: 2rem 0;
+    }
+    article{
+        background-color: white;
+        flex: 0 1 23%;
+        padding-bottom: 2rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+    small{
+        color: $primary;
+        font-size: 0.8rem;
+    }
+}
+
+.about-solution{
+    background-color: white;
+    button{
+        background-color: $primary;
+        color: white;
+    }
+}

@@ -1,0 +1,249 @@
+
+.upper-header {
+    background-color: $primary;
+    padding: 0.5rem 0;
+    a{
+        font-size: 1rem;
+        color: white;
+        padding: 0.9rem;
+    }
+}
+
+.inner-header {
+    background-color: $secondary;
+    
+    .logo{
+        font-size: 1.5rem;
+        font-weight: 900;
+        color: black;
+        b{
+            color: $primary;
+        }
+    }
+    li{
+        
+        padding: 2rem 0.5rem;
+       
+        &:hover{
+        background-color: rgb(221, 89, 98);
+        a{
+            color: white;
+           
+        }
+        }
+        a{
+            color: black;
+            font-size: 1.1rem;
+        }
+    }
+
+}
+.inner-header{
+    .dropDown{
+        display: none;
+        width: 10%;
+       text-align: center;
+       
+    }
+     li:hover .dropDown{
+        display: block;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.9);
+        
+    }
+
+}
+
+
+// Hero
+.hero{
+    background-image: url(./assets/media/banner-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+   height: 100vh;
+    div{
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        button{
+            width: 6rem;
+        }
+    }
+    h1{
+        font-size: 4rem;
+        font-weight: 900;
+    }
+    p{
+        
+        font-weight: 600;
+    }
+    button{
+        border: none;
+        background-color: $primary;
+        
+       
+        color: $secondary;
+    }
+}
+
+// service Section
+h2{
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.service{
+    text-align: center;
+    padding: 2rem 0;
+    
+    p{
+        color: $text-color;
+    }
+    figure{
+        width: 30%;
+       
+    }
+    div{
+        padding: 5rem 0;
+    }
+    article{
+        border: 2px solid $light;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       padding: 2rem 3rem;
+       line-height: 2;
+       font-weight: 500;
+       color: $text-color;
+       h3{
+           font-size: 1.3rem;
+           color: black;
+       }
+       button{
+        border:1px solid $primary;
+        color: $primary;
+        background-color: transparent;
+        margin-top: 2rem ;
+       }
+    }
+}
+
+// Solution Section
+.solution{
+    background-color: $light;
+    padding: 4rem 0;
+    p{
+        color: $text-color;
+        padding: 1rem 0;
+    }
+
+    button{
+        border:1px solid $primary;
+        color: $primary;
+        background-color: transparent;
+        margin-top: 2rem ;
+    }
+}
+
+// consulting
+.consulting{
+    padding: 6rem 0;
+    h2{
+        padding: 1rem 0;
+    }
+    a{
+        font-size: 4rem;
+        
+        color: $primary;
+    }
+    p{
+        color: $text-color;
+    }
+    button{
+        border:1px solid $primary;
+        color: $primary;
+        background-color: transparent;
+        margin-top: 1rem ;
+       }
+}
+
+// Request Quote
+.request{
+    background-color: $primary;
+    color: white;
+    padding: 3rem 0;
+    h3{
+        font-size: 1.3rem;
+    }
+    p{
+        font-weight: 10;
+        font-size: 0.9rem;
+    }
+    button{
+        border:1px solid $secondary;
+        color: $secondary;
+        background-color: transparent;
+        margin-top: 1rem ;
+       }
+}
+
+// industry
+.industry{
+    p{
+        color: $text-color;
+        padding-top: 1rem;
+    }
+}
+
+// Our client
+
+.client{
+    background-color: $light;
+    padding: 3rem 0;
+    div{
+        padding-top: 2rem;
+    }
+    figure{
+        flex: 0 1 12%;
+        filter: grayscale(1);
+        &:hover{
+            filter: grayscale(0);
+        }
+    }
+}
+
+// Footer
+footer{
+    background-color: rgb(52,58,63);
+    color: white;
+    padding: 4rem 0;
+    
+    h3{
+        font-size: 1.1rem;
+        font-weight: 200;
+        color: $light;
+    }
+    a{
+        color: $text-color;
+        i{
+            color: $light;
+        }
+        
+        
+    }
+    li{
+        color: $text-color;
+        font-size: 0.9rem;
+    }
+article{
+    padding-top: 2rem;
+    font-weight: 100;
+    color: $text-color;
+    q{
+        color: $light;
+    }
+}
+}
+
